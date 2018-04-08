@@ -1,0 +1,43 @@
+error=zeros(1,10)
+error(1)=error_global;
+derivada;
+d=-0.1;
+contador=1;
+while(promedio~=0)
+   W1=W1+d;
+   error_g;
+   contador=contador+1;
+   if(contador>10)
+       contador=1;
+   end
+   error(contador)=error_global;
+   derivada;
+end
+error=zeros(1,10);
+derivada;
+error(1)=error_global;
+promedio=1;
+while(promedio~=0)
+   W2=W2+d;
+   error_g;
+   contador=contador+1;
+   if(contador>10)
+       contador=1;
+   end
+   error(contador)=error_global;
+   derivada;
+end
+error=zeros(1,10);
+derivada;
+error(1)=error_global;
+promedio=1;
+while(promedio~=0)
+   b=b+d;
+   error_g;
+   contador=contador+1;
+   if(contador>10)
+       contador=1;
+   end
+   error(contador)=error_global;
+   derivada;
+end
